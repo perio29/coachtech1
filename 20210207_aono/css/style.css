@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+/* base */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    color: #171717;
+}
+
+/* header */
+
+.header{
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#000;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.site-title{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bold;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+
+/* fv */
+.fv{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/eyecatch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-copy{
+    position: absolute;
+    left: 150px;
+    bottom: 230px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.jp-copy{
+    font-size: 4rem;
+}
+.news{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.2rem;
+}
+.news-title{
+    background-color: #fff;
+    width: 70%;
+    color: #171717;
+    padding-right: 40px;
+}
+.news-1{
+    width: 30%;
+    color: #fff;
+    background-color: #171717;
+    text-align: center;
+    padding-top: 15px;
+}
+.title1{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+/* concept */
+.concept-top{
+    width: 100%;
+    height: 360px;
+    background-color: #000;
+    padding: 100px 0 0 0;
+}
+.concept-bottom{
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+.concept-img{
+    width: 630px;
+    height: 420px;
+    background-image: url(../img/mission-img.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 20px;
+    left: 900px;
+}
+.concept-main{
+    width: 40%;
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
+.concept-copy{
+    color: #fff;
+    width: 1010px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 380px;
+    left: 200px;
+}
+.concept-top a{
+    width: 200px;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    position: relative;
+    bottom: 360px;
+    left: 200px;
+}
+.service-title{
+    font-size: 2.5rem;
+    color: #39393b;
+    background-color: #c0c0c0;
+    text-align: center;
+    line-height: 2.0;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.service-back1{
+    display: flex;
+}
+.service-box1{
+    height: 500px;
+    width: 50%;
+    background-color: #c0c0c0;
+}
+.service-image1{
+    background-image: url(../img/service2.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 50%;;
+}
+.web-service-back1{
+    position: relative;
+}
+.service-business1{
+    width: 36%;
+    height: 200px;
+    color: black;
+    background-color: #fff;
+    position: absolute;
+    bottom: 90px;
+    left: 240px;
+    padding: 60px 70px;
+}
+.web-business{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.service-copy1{
+    margin-bottom: 20px;
+}
+.service-copy2{
+    margin-bottom: 20px;
+}
+.service-btn{
+    padding: 8px 28px;
+    color: #000;
+    border: 1px solid;
+    margin-left: auto;
+    border: #000 1px 1px;
+    text-decoration: none;
+}
+.service-btn3{
+    text-align: right;
+}
+.service-box2{
+    width: 100%;
+    height: 200px;
+    background-color: #c0c0c0;
+}
+.service-back2{
+    display: flex;
+}
+.service-image2{
+    background-image: url(../img/service1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+}
+.service-box3{
+    height: 500px;
+    width: 50%;
+    background-color: #c0c0c0;
+}
+.web-service-back2{
+    position: relative;
+}
+.service-business2{
+    width: 36%;
+    height: 200px;
+    color: black;
+    background-color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 670px;
+    padding: 60px 70px;
+}
+.service-box4{
+    height: 200px;
+    width: 100%;
+    background-color: #c0c0c0;
+}
+.company-wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    padding: 120px 0 0;
+    
+}
+.company-back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company{
+    height: 200px;
+    width: 48%;
+    background-image: url(../img/company.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.recruit{
+    height: 200px;
+    width: 48%;
+    background-image: url(../img/recruit.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.company-copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.company-encopy{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.company-jacopy{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.section-question{
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+    padding: 120px 0;
+}
+.question{
+    display: flex;
+    width: 75%;
+    height: 140px;
+    color: #fff;
+    margin: 0 auto;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq{
+    margin-left: 25px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.situmon{
+    font-size: 1.2rem;
+    margin-right: 30px;
+}
+.question-box{
+    width: 50px;
+}
+.contact-wrapper{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/contact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact-copy{
+    color: #fff;
+    text-align: center;
+}
+.contact-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 120px 0 10px;
+}
+.otoiawase{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.okigaruni{
+    font-size: 3.2rem;
+    padding-bottom: 30px;
+}
+.tyoubun{
+    padding-bottom: 30px;
+}
+.contact-copy a{
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.footer{
+    background-color: black;
+}
+.footer-copy{
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    padding: 10px 0 10px;
+}
